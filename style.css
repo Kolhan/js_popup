@@ -11,6 +11,7 @@
     /* overflow: hidden; */
     padding: 20px;
     display: none;
+    background-color: white;
     
 }
 .popup_active {
@@ -61,6 +62,17 @@
     cursor: pointer;
     border: 1px dotted;
     background-size: 70%;
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.popup__ligthbox{
+    background: #0002;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    filter: blur(8px);
+    left: 0px;
+    top: 0px;
 }
 
